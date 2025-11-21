@@ -17,4 +17,9 @@
   html {
     color-scheme: dark;
   }
+
+  * {
+    --black: #fff;
+    --white: #000;
+  }
 }

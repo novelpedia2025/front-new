@@ -1,7 +1,13 @@
+'use client';
+
+import { FooterWrapper } from "@/features";
+import { FooterCompanyWidget, FooterLinkWidget } from "@/widgets";
+
 export default function Footer() {
   return (
-    <div>
-      푸터 컴포넌트
-    </div>
+    <FooterWrapper>
+      <FooterLinkWidget />
+      <FooterCompanyWidget />
+    </FooterWrapper>
   );
 }
